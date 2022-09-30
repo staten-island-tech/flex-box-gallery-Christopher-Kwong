@@ -5,8 +5,22 @@ html, body, *{
     font-size: 62.5%;
 }
 
-.Boxes {
+h1 {
+    font-size: 8rem;
+    background-color: orange;
+    height: 40vh;
+    text-align: center;
+}
+
+.Box {
     display: flex;
     font-size: 3rem;
     justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.Box-Text {
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
 }
