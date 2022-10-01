@@ -1,26 +1,63 @@
-html, body, *{
+html, body, * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: 'Silkscreen', cursive;
 }
 
-h1 {
-    font-size: 8rem;
+img {
+    margin: 30px 60px;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+.Title {
     background-color: orange;
-    height: 40vh;
+    padding: 100px 0px;
     text-align: center;
+    position: relative;
+    font-size: 8rem;
 }
 
 .Box {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 3rem;
-    justify-content: space-around;
-    margin-top: 5rem;
+    justify-content: space-evenly;
 }
 
 .Box-Text {
     border: 1px solid black;
-    width: 30%;
+    box-shadow: 10px 10px 10px orange;
     text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Box-Title {
+
+}
+
+.Box-Images {
+
+}
+
+.Box-Information {
+
+}
+
+.Credits {
+    font-size: 2rem;
 }
