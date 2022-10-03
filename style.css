@@ -6,29 +6,34 @@ html, body, * {
     font-family: 'Silkscreen', cursive;
 }
 
+body {
+    background-color: #A9A9A9;
+}
+
 img {
-    margin: 30px 60px;
+    margin: 20px 40px;
 }
 
 p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 1em;
 }
 
 h2 {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1em;
 }
 
 .Title {
-    background-color: orange;
+    color: #FF3B3F;
+    background-color: #efefef;
     padding: 100px 0px;
     text-align: center;
     position: relative;
     font-size: 8rem;
 }
 
-.Box {
+#Box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,9 +42,11 @@ h2 {
 }
 
 .Box-Text {
+    background-color: #EFEFEF;
     border: 1px solid black;
-    box-shadow: 10px 10px 10px orange;
-    text-align: center;
+    box-shadow: 10px 10px 10px 10px #CAEBF2;
+    color: #FF3B3F; 
+    align-items: center;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -56,8 +63,4 @@ h2 {
 
 .Box-Information {
 
-}
-
-.Credits {
-    font-size: 2rem;
 }
