@@ -11,16 +11,16 @@ body {
 }
 
 img {
-    margin: 20px 40px;
+    margin: 15px 30px;
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 1em;
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 1em;
 }
 
@@ -30,7 +30,12 @@ h2 {
     padding: 100px 0px;
     text-align: center;
     position: relative;
-    font-size: 8rem;
+    font-size: 7rem;
+    transition: all 1s;
+}
+
+.Title:hover {
+    transform: scale(1.1);
 }
 
 #Box {
@@ -51,9 +56,19 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transition: all 0.5s ease-in-out;
+}
+
+.Box-Text:hover {
+    transform: scale(1.1);
 }
 
 .Box-Title {
+    transition-timing-function: steps(6, end);
+}
+
+.Box-Title:hover {
+    transform: scale(1.2);
 
 }
 
