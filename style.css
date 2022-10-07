@@ -12,6 +12,12 @@ body {
 
 img {
     margin: 15px 30px;
+    outline-offset: 0.3rem;
+    transition: all 0.3s;
+}
+
+img:hover {
+    outline: 0.2rem solid black;
 }
 
 p {
@@ -46,9 +52,14 @@ h2 {
     justify-content: space-evenly;
 }
 
+body:hover .Box-Images:not(:hover) {
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
 .Box-Text {
     background-color: #EFEFEF;
-    border: 1px solid black;
+    border: 0.2rem solid black;
     box-shadow: 10px 10px 10px 10px #CAEBF2;
     color: #FF3B3F; 
     align-items: center;
@@ -63,13 +74,13 @@ h2 {
     transform: scale(1.1);
 }
 
+
 .Box-Title {
-    transition-timing-function: steps(6, end);
+    transition: all 0.5s;
 }
 
 .Box-Title:hover {
-    transform: scale(1.2);
-
+    color: #952123;
 }
 
 .Box-Images {
