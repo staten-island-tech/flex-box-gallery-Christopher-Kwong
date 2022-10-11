@@ -10,16 +10,6 @@ body {
     background-color: #A9A9A9;
 }
 
-img {
-    margin: 15px 30px;
-    outline-offset: 0.3rem;
-    transition: all 0.3s;
-}
-
-img:hover {
-    outline: 0.2rem solid black;
-}
-
 p {
     margin-bottom: 15px;
     font-size: 1em;
@@ -52,11 +42,6 @@ h2 {
     justify-content: space-evenly;
 }
 
-body:hover .Box-Images:not(:hover) {
-    transform: scale(0.9);
-    opacity: 0.8;
-}
-
 .Box-Text {
     background-color: #EFEFEF;
     border: 0.2rem solid black;
@@ -74,7 +59,6 @@ body:hover .Box-Images:not(:hover) {
     transform: scale(1.1);
 }
 
-
 .Box-Title {
     transition: all 0.5s;
 }
@@ -84,9 +68,33 @@ body:hover .Box-Images:not(:hover) {
 }
 
 .Box-Images {
+    margin: 15px 30px;
+    outline-offset: 0.3rem;
+    transition: all 0.3s;
+}
 
+.Box-Images:hover {
+    outline: 0.2rem solid black;
 }
 
 .Box-Information {
+    animation: Box-Information-Animation 10s infinite;
+}
 
+@keyframes Box-Information-Animation {
+    0% {
+        color: red;
+    }
+    25% {
+        color: orange;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
 }
