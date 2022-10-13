@@ -13,6 +13,12 @@ body {
 p {
     margin-bottom: 15px;
     font-size: 1em;
+    opacity: 40%;
+    transition: all 1s;
+}
+
+p:hover {
+    opacity: 100%;
 }
 
 h2 {
