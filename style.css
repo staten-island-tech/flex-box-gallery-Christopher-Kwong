@@ -17,7 +17,7 @@ p {
     transition: all 1s;
 }
 
-p:hover {
+p:hover { /* Opacity */
     opacity: 100%;
 }
 
@@ -34,10 +34,12 @@ h2 {
     position: relative;
     font-size: 7rem;
     transition: all 1s;
+    border: solid black;
 }
 
-.Title:hover {
-    transform: scale(1.1);
+.Title:hover { /* Shrink */
+    transform: scale(0.9);
+    margin-top: 5rem;
 }
 
 #Box {
@@ -61,7 +63,7 @@ h2 {
     transition: all 0.5s ease-in-out;
 }
 
-.Box-Text:hover {
+.Box-Text:hover { /* Enlarge */
     transform: scale(1.1);
 }
 
@@ -69,7 +71,7 @@ h2 {
     transition: all 0.5s;
 }
 
-.Box-Title:hover {
+.Box-Title:hover { /* Color Change */
     color: #952123;
 }
 
@@ -79,15 +81,15 @@ h2 {
     transition: all 0.3s;
 }
 
-.Box-Images:hover {
+.Box-Images:hover { /* Border */
     outline: 0.2rem solid black;
 }
 
-.Box-Information {
+.Box-Information { 
     animation: Box-Information-Animation 10s infinite;
 }
 
-@keyframes Box-Information-Animation {
+@keyframes Box-Information-Animation { /* Rainbow Color Change */
     0% {
         color: red;
     }
