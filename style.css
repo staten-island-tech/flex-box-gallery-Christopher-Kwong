@@ -35,6 +35,7 @@ h2 {
     font-size: 7rem;
     transition: all 1s;
     border: solid black;
+    margin-bottom: 5rem;
 }
 
 .Title:hover { /* Shrink Hover Effect*/
@@ -56,7 +57,7 @@ h2 {
     box-shadow: 10px 10px 10px 10px #CAEBF2;
     color: #FF3B3F; 
     align-items: center;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
