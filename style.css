@@ -108,9 +108,21 @@ h2 {
     }
 }
 
-@media (width:390px) {
+@media (max-width:390px) or (max-height:390px) {
+    .Box-Text {
+        box-shadow: -10px 15px 5px 10px #CAEBF2;
+    }
+}
+
+@media (max-height:844px) or (max-width:844px){
     #Box {
         transform: scale(0.6);
         height: 0em;
+    }
+    .Box-Title {
+        color: rgb(199, 199, 253);
+    }
+    .Box-Title:hover {
+        color: teal;
     }
 }
