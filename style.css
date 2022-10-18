@@ -108,13 +108,13 @@ h2 {
     }
 }
 
-@media (max-width:390px) or (max-height:390px) {
+@media (width: 810px) or (height: 810px) or (width: 768px) or (height: 768px) { /*IPad : First Set - Firefox, Second Set - Chrome and Microsoft Edge*/
     .Box-Text {
         box-shadow: -10px 15px 5px 10px #CAEBF2;
     }
 }
 
-@media (max-height:844px) or (max-width:844px){
+@media (width: 390px) or (height: 390px) { /*Iphone 12*/
     #Box {
         transform: scale(0.6);
         height: 0em;
@@ -124,5 +124,11 @@ h2 {
     }
     .Box-Title:hover {
         color: teal;
+    }
+}
+
+@media (width: 1440px) or (height: 1440px) or (width: 1280px) or (height: 1280px) { /*Laptop Screens (Firefox Only): First Set - HiDPl Screen, Second Set - MDPl & Touch Screen*/
+    #Box {
+        
     }
 }
