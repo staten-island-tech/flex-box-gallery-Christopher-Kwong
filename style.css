@@ -108,7 +108,7 @@ h2 {
     }
 }
 
-@media (width: 810px) or (height: 810px) or (width: 768px) or (height: 768px) { /*IPad : First Set - Firefox, Second Set - Chrome and Microsoft Edge*/
+@media (width: 810px) or (height: 810px) or (width: 768px) or (height: 768px) { /*IPad : First Set - Firefox, Second Set - Chrome and Microsoft Edge (IPad widths vary from size to size)*/
     .Box-Text {
         box-shadow: -10px 15px 5px 10px #CAEBF2;
     }
@@ -128,7 +128,8 @@ h2 {
 }
 
 @media (width: 1440px) or (height: 1440px) or (width: 1280px) or (height: 1280px) { /*Laptop Screens (Firefox Only): First Set - HiDPl Screen, Second Set - MDPl & Touch Screen*/
-    #Box {
-        
+    .Title {
+        background-color: lightgray;
+        text-shadow: 10px 10px 10px gray; /*Adding another section for px does not work*/
     }
 }
